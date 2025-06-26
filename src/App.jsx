@@ -226,16 +226,12 @@ function App() {
   return (
     <>
  
-      <div className="container hover:border-blue-500 pl-25 text-left ">
-        
-
-
-      <header className="pt-15 pb-10 leading-relaxed ">
+ <header className=" container pt-15 pb-10 leading-relaxed bg-purple-600 ">
         <ul class="centered-list">
           
        
         <span
-              class="rounded-[50%] border-2 p-2 border-pink-300 text-pink-500"
+              class=" rounded-[50%] border-2 p-2 border-pink-300 text-pink-500"
               >&Nilush</span>
     
          
@@ -254,7 +250,11 @@ function App() {
          
           </ul>
         </header>
-        <ul className="grid grid-cols-3 gap-10 ">
+      <div className="container  hover:border-blue-500  text-left ">
+        
+
+
+        <ul className="grid grid-cols-3 gap-10 pl-25 ">
           {books.map((book) => {
             return (
               // <div className="wight">
@@ -271,13 +271,13 @@ function App() {
                 <img width={300} src={book.image} alt="" />
                 </figure>
                 <div className="card-body">
-                  <h2 className="card-title">{book.title}</h2>
+                  <h2 className="card-title  caret-purple-800">{book.title}</h2>
                   <h4 className="">{book.price}</h4>
                   <h4 className="bg-yellow-300 px-1 py-[0.1rem] text-sm w-18">{book. author}</h4>
                  
                  
                   <h4>{book.rating}</h4>
-                  <h3>{book.description}</h3>
+                  <h3 className=" caret-pink-600">{book.description}</h3>
                  
                   <div className="card-actions justify-end">
                   <button className="btn btn-dash btn-primary">Primary</button>
@@ -287,7 +287,6 @@ function App() {
             );
           })}
         </ul>
-
         <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content items-center p-4 mt-20">
   <aside className="grid-flow-col items-center">
     <svg
@@ -374,7 +373,9 @@ function App() {
     </a>
   </nav>
 </footer>
+  
       </div>
+      
     </>
   );
 }
