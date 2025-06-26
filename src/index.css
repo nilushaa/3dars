@@ -1,27 +1,29 @@
 @import "tailwindcss";
 @plugin "daisyui";
 @utility container {
-   max-width: 1600px;
+   max-width: 1660px;
   background-color: #f4f4f4;
   margin-left: auto;
   margin-right: auto;
   padding: 0 rem;
   text-align: center; 
   flex-direction: column
+  
  
 }
 img {
   display: block;     
   margin: 0 auto;    
-  margin-bottom: 20px; 
-  margin-top: 15px;
+  margin-bottom: 0px; 
+  margin-top: 150px;
 
 }
 
 .centered-list {
- display: flex;              
+ display: flex;      
+ width: 400;        
   justify-content: center;    
-  gap: 30px;                  
+  gap: 20px;                  
   list-style: none;           
   padding: 0;
   margin: 0;
@@ -37,6 +39,7 @@ img {
   background-color: #e6f0ff; 
   border-radius: 5px;
   transition: 0.3s;
+  
 }
 .centered-list span{
   margin-left: 25px;
@@ -49,7 +52,7 @@ img {
   background-color: #cce0ff;  
 }
 .btn{
-  margin-left: 120px;
+  /* margin-left: 120px; */
   /* margin-bottom: 20px; */
   margin-top: 20px;
 

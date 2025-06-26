@@ -225,13 +225,13 @@ function App() {
 
   return (
     <>
- 
- <header className=" container pt-15 pb-10 leading-relaxed bg-purple-600 ">
+ <div className="">
+ <header className=" container pt-15 pb-10 leading-relaxed bg-purple-600 mb-0 ">
         <ul class="centered-list">
           
        
         <span
-              class=" rounded-[50%] border-2 p-2 border-pink-300 text-pink-500"
+              class=" rounded-[50%] border-2 p-2 border-pink-300 text-pink-500 bg-fuchsia-400"
               >&Nilush</span>
     
          
@@ -250,11 +250,11 @@ function App() {
          
           </ul>
         </header>
-      <div className="container  hover:border-blue-500  text-left ">
+      <div className="container  hover:border-blue-500  ">
         
 
 
-        <ul className="grid grid-cols-3 gap-10 pl-25 ">
+        <ul className="grid grid-cols-3 gap-10 pl-25 hover:bg-purple-200 ">
           {books.map((book) => {
             return (
               // <div className="wight">
@@ -266,24 +266,27 @@ function App() {
               //   <button className="btn btn-secondary">buy book</button>
               // </li>
               // </div>
-              <div className="card bg-base-100 w-96 shadow-sm">
+              <div className="card bg-base-100 h-150 w-96 shadow-sm hover:bg-fuchsia-500 mt-20"  >
                 <figure>
                 <img width={300} src={book.image} alt="" />
                 </figure>
                 <div className="card-body">
                   <h2 className="card-title  caret-purple-800">{book.title}</h2>
-                  <h4 className="">{book.price}</h4>
-                  <h4 className="bg-yellow-300 px-1 py-[0.1rem] text-sm w-18">{book. author}</h4>
+                  <h4 className=" text-left">{book.price}</h4>
+                  <h4 className=" text-left">{book. author}</h4>
                  
                  
-                  <h4>{book.rating}</h4>
+                  <h4 className=" text-left">{book.rating}</h4>
                   <h3 className=" caret-pink-600">{book.description}</h3>
                  
                   <div className="card-actions justify-end">
-                  <button className="btn btn-dash btn-primary">Primary</button>
+                  <button className="btn btn-dash btn-primary w-80 pl-20 pr-20 h-20">BUY NOOSh</button>
                   </div>
+                 
                 </div>
+                
               </div>
+              
             );
           })}
         </ul>
@@ -373,7 +376,7 @@ function App() {
     </a>
   </nav>
 </footer>
-  
+</div>
       </div>
       
     </>
