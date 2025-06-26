@@ -227,8 +227,12 @@ function App() {
     <> 
  <div className="">
   <header className=" container pt-15 pb-10  leading-relaxed bg-purple-600  flex items-center justify-center">
-    <img src="./book.jpg" alt="" />
+
         <ul class="centered-list">
+        <span
+              class="rounded-[50%] border-2 p-2 border-pink-300 text-pink-500"
+              >&Nilush</span>
+   
             <li>O'ZBEK KITOBLAR</li>
             <li>XITOY KITOBLAR</li>
             <li>INGLISH KITOBLAR</li>
