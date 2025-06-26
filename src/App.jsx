@@ -229,10 +229,12 @@ function App() {
   <header className=" container pt-15 pb-10  leading-relaxed bg-purple-600  flex items-center justify-center">
 
         <ul class="centered-list">
-        <span
-              class="rounded-[50%] border-2 p-2 border-pink-300 text-pink-500"
-              >&Nilush</span>
-   
+        <label className="swap swap-flip text- 998xl">
+  <input type="checkbox" />
+
+  <div className="swap-on">🖤</div>
+  <div className="swap-off">❤️</div>
+</label> 
             <li>O'ZBEK KITOBLAR</li>
             <li>XITOY KITOBLAR</li>
             <li>INGLISH KITOBLAR</li>
@@ -242,16 +244,10 @@ function App() {
 
   <div className="swap-on">🖤</div>
   <div className="swap-off">❤️</div>
-</label>
-
-  
-         
+</label> 
           </ul>
         </header>
       <div className="container  hover:border-blue-500  ">
-        
-
-
         <ul className="grid grid-cols-3 gap-10 pl-25 hover:bg-purple-200 ">
           {books.map((book) => {
             return (
