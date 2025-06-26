@@ -228,10 +228,12 @@ function App() {
  <div className="">
   <header className=" container pt-15 pb-10 leading-relaxed bg-purple-600  flex items-center justify-center">
         <ul class="centered-list">
-       
-              <span
-              class="rounded-[50%] border-2 p-2 border-pink-300 text-pink-500 bg-fuchsia-400"
-              >&Nilush</span>
+        <a class="flex gap-2 items-center logo-family text-2xl" href=""
+            ><span
+              class="rounded-[50%] border-2 p-2 border-pink-300 text-pink-500  bg-fuchsia-400"
+              >&Nilush</span
+            ></a>
+             
             <li>O'ZBEK KITOBLAR</li>
             <li>XITOY KITOBLAR</li>
             <li>INGLISH KITOBLAR</li>
