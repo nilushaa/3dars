@@ -224,7 +224,7 @@ function App() {
   ]);
 
   return (
-    <>
+    <> 
  <div className="">
  <header className=" container pt-15 pb-10 leading-relaxed bg-purple-600 mb-0 ">
         <ul class="centered-list">
