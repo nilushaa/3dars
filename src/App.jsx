@@ -226,7 +226,7 @@ function App() {
   return (
     <> 
  <div className="">
- {/* <header className=" container pt-15 pb-10 leading-relaxed bg-purple-600  "> */}
+  <header className=" container pt-15 pb-10 leading-relaxed bg-purple-600  ">
         <ul class="centered-list">
         <span
               class=" rounded-[50%] border-2 p-2 border-pink-300 text-pink-500 bg-fuchsia-400"
