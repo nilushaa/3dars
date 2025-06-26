@@ -316,8 +316,8 @@ function App() {
       src="https://covers.openlibrary.org/b/id/8228691-L.jpg"
       alt="The Alchemist"
     />
-  </div>
-</div>
+  </div>  
+</div>  
 <div className="avatar">
   <div className="w-8 rounded">
     <img
