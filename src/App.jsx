@@ -226,7 +226,7 @@ function App() {
   return (
     <> 
  <div className="">
-  <header className=" container pt-15 pb-10 leading-relaxed bg-purple-600  ">
+  <header className=" container pt-15 pb-10 leading-relaxed bg-purple-600  flex items-center justify-center">
         <ul class="centered-list">
         <span
               class=" rounded-[50%] border-2 p-2 border-pink-300 text-pink-500 bg-fuchsia-400"
@@ -250,7 +250,7 @@ function App() {
         
 
 
-        <ul className="grid grid-cols-3 gap-10 hover:bg-purple-200 ">
+        <ul className="grid grid-cols-3 gap-10 pl-25 hover:bg-purple-200 ">
           {books.map((book) => {
             return (
        
