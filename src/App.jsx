@@ -250,18 +250,10 @@ function App() {
         
 
 
-        <ul className="grid grid-cols-3 gap-10 pl-25 hover:bg-purple-200 ">
+        <ul className="grid grid-cols-3 gap-10 hover:bg-purple-200 ">
           {books.map((book) => {
             return (
-              // <div className="wight">
-              // <li key={book.id} className="item">
-              //   <img width={200} src={book.image} alt="" />
-              //   <h3>{book.title}</h3>
-              //   <h3>{book.description}</h3>
-              //   <h3>{book.author}</h3>
-              //   <button className="btn btn-secondary">buy book</button>
-              // </li>
-              // </div>
+       
               <div className="card bg-base-100 h-150 w-96 shadow-sm hover:bg-fuchsia-500 mt-20"  >
                 <figure>
                 <img width={300} src={book.image} alt="" />
