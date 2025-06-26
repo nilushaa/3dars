@@ -262,7 +262,7 @@ function App() {
               //   <button className="btn btn-secondary">buy book</button>
               // </li>
               // </div>
-              <div className="card bg-base-100 h-150 w-96 shadow-sm hover:bg-fuchsia-500 "  >
+              <div className="card bg-base-100 h-150 w-96 shadow-sm hover:bg-fuchsia-500 mt-20"  >
                 <figure>
                 <img width={300} src={book.image} alt="" />
                 </figure>
