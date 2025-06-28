@@ -10,7 +10,7 @@ import Image8 from "./assets/OnePiece_1.jpg";
 import Image9 from "./assets/Shingeki_no.jpg";
 import Image10 from "./assets/berserk.png";
 import Image11 from "./assets/Monster.jpg";
-import Image12 from "./assets/6911073834.webp";
+import Image12 from "./assets/Vinland.jpg";
 import Image13 from "./assets/Volume.png";
 import Image14 from "./assets/Oʻtgan_kunlar.jpg";
 import Image15 from "./assets/Mehrobdan.jpg";
@@ -23,6 +23,7 @@ import Image21 from "./assets/yulduz.jpg";
 
 <input type="checkbox" value="synthwave" className="toggle theme-controller" />;
 import Book from "./Book";
+
 
 function App() {
   
@@ -289,8 +290,8 @@ function App() {
       </header>
       
       <div className="container   ">
-      <h2 className="bg-fuchsia-200">Number of books :)</h2>
-        <ul className="grid grid-cols-3 pl-25 hover:bg-purple-200  ">
+      <h1 className="bg-fuchsia-200 items-center text-2xl pt-14">Number of books :)  {books.length}</h1>
+        <ul className="grid grid-cols-3 pl-25 bg-purple-200  ">
         
           {books.map((book) => {
             return <Book key={book.id} book={book} deleteBook={deleteBook} />;
