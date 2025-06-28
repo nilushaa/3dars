@@ -20,10 +20,12 @@ import Image18 from "./assets/odamiylik.jpg";
 import Image19 from "./assets/guliston.jpg";
 import Image20 from "./assets/koxna.webp";
 import Image21 from "./assets/yulduz.jpg";
-import Book from "./Book";
+
 <input type="checkbox" value="synthwave" className="toggle theme-controller" />;
+import Book from "./Book";
 
 function App() {
+  
   const [books, setBooks] = useState([
     {
       id: 1,
@@ -261,8 +263,12 @@ function App() {
 
   return (
     <>
+    
       <header className=" container pt-15 pb-10  leading-relaxed bg-purple-600  flex items-center justify-center">
+        
         <ul className="centered-list ">
+          
+
           <label className="swap swap-flip text- 998xl">
             <input type="checkbox" />
 
@@ -281,8 +287,11 @@ function App() {
           </label>
         </ul>
       </header>
+      
       <div className="container   ">
+      <h2 className="bg-fuchsia-200">Number of books :)</h2>
         <ul className="grid grid-cols-3 pl-25 hover:bg-purple-200  ">
+        
           {books.map((book) => {
             return <Book key={book.id} book={book} deleteBook={deleteBook} />;
           })}
